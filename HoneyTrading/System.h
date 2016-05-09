@@ -24,6 +24,8 @@
 #pragma mark - Library -
 
 #import "IQKeyboardManager.h"
+#import "FMDB.h"
+#import <sqlite3.h>
 
 #pragma mark - ViewControllers -
 
