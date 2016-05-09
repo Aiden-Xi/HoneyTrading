@@ -25,7 +25,9 @@
 
 #import "IQKeyboardManager.h"
 #import "FMDB.h"
-#import <sqlite3.h>
+#import "JKDBHelper.h"
+#import "JKDBModel.h"
+#import "FMDatabase.h"
 
 #pragma mark - ViewControllers -
 
