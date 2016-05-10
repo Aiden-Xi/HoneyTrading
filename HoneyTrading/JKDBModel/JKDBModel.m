@@ -527,6 +527,7 @@
                  }
              }
             [users addObject:model];
+            
             FMDBRelease(model);
         }
     }];

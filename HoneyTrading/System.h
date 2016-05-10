@@ -24,10 +24,17 @@
 #pragma mark - Library -
 
 #import "IQKeyboardManager.h"
+#import "MJExtension.h"
 #import "FMDB.h"
 #import "JKDBHelper.h"
 #import "JKDBModel.h"
-#import "FMDatabase.h"
+#import "HoneyModel.h"
+#import "HoneyCell.h"
+
+#pragma mark - Category - 
+
+#import "NSString+Tools.h"
+#import "NSDictionary+safeObjectForKey.h"
 
 #pragma mark - ViewControllers -
 
@@ -51,6 +58,11 @@
 #define kCustomNaviHeight                   (kDeviceOSVersion >= 7.0 ? 64 : 0)
 #define kNavTabBarHeight                    64
 
+#define kPadding_5                          5
+#define kPadding_10                         10
+#define kPadding_15                         15
+#define kPadding_20                         20
+
 #define kNullToString(str)                  ([str isEqual:[NSNull null]] || str == nil) ? @"" : str
 #define kNullToArray(arr)                   ([arr isEqual:[NSNull null]] || arr == nil) ? @[] : arr
 #define kNullToDictionary(dic)              ([dic isEqual:[NSNull null]] || dic == nil) ? @{} : dic
@@ -60,9 +72,11 @@
 #define kScreenHeight                       ([[UIScreen mainScreen] bounds].size.height)
 #define kScreenSize                         CGSizeMake(kScreenWidth, kScreenHeight)
 #define kLineHeight                         (1 / [UIScreen mainScreen].scale)
+
 #define kDefaultColor                       COLOR(17, 17, 17, 1)
 #define kDefaultWhiteColor                  COLOR(255, 255, 255, 1)
 #define kDefaultBlackColor                  COLOR(0, 0, 0, 1)
+#define kBackgroundColor                    COLOR(248, 248, 248, 1)
 
 #define COLOR(r, g, b, a)                   [UIColor colorWithRed:(r / 255.0) green:(g / 255.0) blue:(b / 255.0) alpha:(a * 1.0)]
 

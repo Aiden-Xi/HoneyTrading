@@ -7,6 +7,7 @@
 //  github:https://github.com/Joker-King/JKDBModel
 
 #import <Foundation/Foundation.h>
+#import "FMDB.h"
 
 /** SQLite五种数据类型 */
 #define SQLTEXT     @"TEXT"

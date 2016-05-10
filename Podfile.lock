@@ -1,10 +1,13 @@
 PODS:
   - IQKeyboardManager (3.3.0)
+  - MJExtension (2.5.9)
 
 DEPENDENCIES:
   - IQKeyboardManager
+  - MJExtension
 
 SPEC CHECKSUMS:
   IQKeyboardManager: c87b6600cbfca89d1fe6e8052d936e6c20f65375
+  MJExtension: 2330aeb6c83428c820749290bf766e81827cda65
 
 COCOAPODS: 0.39.0

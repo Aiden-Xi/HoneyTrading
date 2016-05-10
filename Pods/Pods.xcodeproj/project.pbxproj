@@ -10,18 +10,29 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>00017F8BF385AD0DA95AAC3A8E19EFE5</key>
+		<key>00C948DCE47F5F5DC2E76F0F7231871F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IQUIView+Hierarchy.m</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>IQKeyBoardManager/Categories/IQUIView+Hierarchy.m</string>
+			<string>IQKeyboardManager.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>011F706B1550CA67970DACDE4EECFDD6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>IQKeyboardManager-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -38,114 +49,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>03DE15FF013359102281D889B995153B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>IQKeyboardManager-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F9CB60F0258855FEE88076EED4B076</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>671BDA6F0F1DB034B33788CD5625BA45</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>06F1D9E6B2091F771BC879E8B8CBF381</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IQKeyboardManagerConstants.h</string>
-			<key>path</key>
-			<string>IQKeyBoardManager/Constants/IQKeyboardManagerConstants.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>08A21ABCBF8E758BED290C7355DA940A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3D41F8548FF21ACBDE3FDB190283F0D2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>0BB5EA1D6E7FA73209CC4ABFAF9965FE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KeyboardManager.h</string>
-			<key>path</key>
-			<string>IQKeyBoardManager/KeyboardManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0C1901FFA5F94877A8192386F8242147</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>98C98CDFB3F20F2925F6CD1F141BB14F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>0DC5BC4378D6862AE8B17E78971ACF0F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>101190082C4216C179E398308DB617DC</key>
+		<key>041B9D8E1D8613D03368204C8D3D5FA6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -160,6 +64,91 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>043E9C9B5AD572D433272E23B2687C68</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQUITextFieldView+Additions.h</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/Categories/IQUITextFieldView+Additions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>04464C49D83255B672FA7D2B06CD01CF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQSegmentedNextPrevious.h</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/IQSegmentedNextPrevious/IQSegmentedNextPrevious.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>08A21ABCBF8E758BED290C7355DA940A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C50F5684780C66F376181E78F2A09A44</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>0AFABD28B2E5C3292603A36599055EA7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C2A0BA88AA3990EC36D640E2F8D689D3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>0B87C749C738E3985864F92993B75577</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQTextView.h</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/IQTextView/IQTextView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0C2B33BE64F0CF1C6ED2B2200953568E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>825A2F32E6A62FB66328BD8BF5201F71</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0DC5BC4378D6862AE8B17E78971ACF0F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>10834806BD7B412BC24F347361FA2C8E</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -173,10 +162,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1488C837A95EDF60B960DE66489FFB64</key>
+		<key>10B5AA3FFC425BAFB7A81C4B1C19CC1A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>BC4411EBEEDCDBFA964A29DB1359917D</string>
+			<string>6BCB2B86877D5B6DF732077427013110</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -187,78 +176,101 @@
 				</array>
 			</dict>
 		</dict>
-		<key>14E97E9CD4229CDDF69F34A41B531509</key>
+		<key>117B126FEF2C7188D948FA07AE7F7E0B</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IQToolbar.m</string>
-			<key>path</key>
-			<string>IQKeyBoardManager/IQToolbar/IQToolbar.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14FF0472B902D836465F15982B259F2C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IQUITextFieldView+Additions.m</string>
-			<key>path</key>
-			<string>IQKeyBoardManager/Categories/IQUITextFieldView+Additions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>17BA9304BBD30327354E0002F305E612</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>90F6E383135A51A1BA2C6842630697F0</string>
-			<key>buildPhases</key>
+			<key>buildConfigurations</key>
 			<array>
-				<string>5A70E3B9609A1000CA21B92456AC45D9</string>
-				<string>04F9CB60F0258855FEE88076EED4B076</string>
+				<string>53474E004DB736AE65470F6BAEAF55BE</string>
+				<string>6AEEA4481150E6F702AF11B39C197545</string>
 			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>B457EE8046681DC54E42E33DA62E7690</string>
-			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>8FD1B4727A63F5CA9153D83D065E5555</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
+			<string>XCConfigurationList</string>
 		</dict>
-		<key>1C366E2CA40DAD885DFCB757522F8CC4</key>
+		<key>11BD5AE4F92EFD5DB5772947204A678C</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>7617536E23E24B9404FED14E492EA1F4</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>1488C837A95EDF60B960DE66489FFB64</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F4AE511B2313B6FA3D96133EBBE51152</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>14F67635944C4C8A9A87FDD7CD101A2A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9239F6A67E495F602A02D7C455052E9E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1BD0E5F1E8CED9A6728757C9EBF99F05</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D4A73E58535F3F614B5B55CCD2C7FF13</string>
+				<string>C93F01C8A0EEF8E066D9451FEC439182</string>
+				<string>F4AE511B2313B6FA3D96133EBBE51152</string>
+				<string>CEAFE3F3D2415F4C1B99A1B7AEC0223E</string>
+				<string>E11C0116A8ED7F660CF9EB42B88F5F07</string>
+				<string>041B9D8E1D8613D03368204C8D3D5FA6</string>
+				<string>82337C18662AFA4C8881DCCE5511DE8C</string>
+				<string>8B3AB8A9B40F961B1CB5D529B0AB950A</string>
+				<string>7C905C080679C36642AD9C63E44E040B</string>
+				<string>E83FF91CB60051903756F1C68CEC5050</string>
+				<string>04464C49D83255B672FA7D2B06CD01CF</string>
+				<string>88BDAA9025E9AE971D39A203B51C1882</string>
+				<string>0B87C749C738E3985864F92993B75577</string>
+				<string>DCEAC21222EDD10354196F655034296A</string>
+				<string>F271B74D65430AF1B99F28FAC1C198E3</string>
+				<string>961BD7ACF4F530D420C2E8417D232B47</string>
+				<string>F837560D03295579B22065CF52EA5E03</string>
+				<string>D9E67E2A77E1E3890F06F28F91B5F5B8</string>
+				<string>043E9C9B5AD572D433272E23B2687C68</string>
+				<string>2F565C0846B68449168F4015FD312331</string>
+				<string>58DA7ECAD074BBE7959C4840F9895DE9</string>
+				<string>E318B8308A3A121D9D49EFB558A8EBC6</string>
+				<string>626B002AE48CBF70494EA9DA31D0615F</string>
+				<string>BC6B3C23C365B335FE6466FFF25C5E12</string>
+				<string>C2EBAD55FF132F9C515057B0B260D081</string>
+				<string>C50F5684780C66F376181E78F2A09A44</string>
+				<string>2161E6DDC1EC118E1EFA683CCA0C9151</string>
+				<string>F93B0967296F379A6106B4305A345DBE</string>
+				<string>37D479A13DD131F7D14593082DB4409A</string>
+				<string>6FE1811DADF01566350A80E2D1015E8B</string>
+				<string>7BD4C23EFF5E6FDB36AB4D541AA1C2FB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>IQKeyboardManager.m</string>
+			<string>IQKeyboardManager</string>
 			<key>path</key>
-			<string>IQKeyBoardManager/IQKeyboardManager.m</string>
+			<string>IQKeyboardManager</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1EEB44659AE7DDF761ADBA6B40AC5142</key>
+		<key>1DCE11FE1A0C30759F0AF9AE5818135C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -267,29 +279,46 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IQToolbar.h</string>
+			<string>MJPropertyKey.h</string>
 			<key>path</key>
-			<string>IQKeyBoardManager/IQToolbar/IQToolbar.h</string>
+			<string>MJExtension/MJPropertyKey.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>21523237F8FA404333865301D9D2296A</key>
+		<key>2152D8528BEDD0EA6477C25A7B66F36D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSObject+MJProperty.h</string>
 			<key>path</key>
-			<string>IQKeyboardManager.xcconfig</string>
+			<string>MJExtension/NSObject+MJProperty.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2161E6DDC1EC118E1EFA683CCA0C9151</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQUIWindow+Hierarchy.h</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/Categories/IQUIWindow+Hierarchy.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2293E8F99DEBE4BA7EE8A6629F2E5428</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6CCCE4F16E15125BC210E65AF70BBF6A</string>
+			<string>E83FF91CB60051903756F1C68CEC5050</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -297,41 +326,6 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
-		</dict>
-		<key>2308508CA5A23209B38619ADA4B690CE</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>55DBDD8B7D446F1D618F303A9FB53209</string>
-			<key>remoteInfo</key>
-			<string>IQKeyboardManager</string>
-		</dict>
-		<key>232A334A446A931E589D560745C03FF9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IQUIView+IQKeyboardToolbar.h</string>
-			<key>path</key>
-			<string>IQKeyBoardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>257C1A89A904657F796D0D033F2D06C8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>272643F56613CA0D336AE3DBF19DC404</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>272643F56613CA0D336AE3DBF19DC404</key>
 		<dict>
@@ -343,6 +337,35 @@
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
 			<string>Pods-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>28D5E64861C74DB483E72DE4E35E4AA0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>58A269989D183DE4635AF44C2FFE969D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>295BBAB8917F82CAD546B260B4627838</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MJExtension.h</string>
+			<key>path</key>
+			<string>MJExtension/MJExtension.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -360,7 +383,21 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>312C95054D58AAA8C3BA30F2CD9BE736</key>
+		<key>2EDB111B41EBA9F2B002DAD15CB26687</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7D1069898B7245AB4C36FAE2F0DC0331</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>2F565C0846B68449168F4015FD312331</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -369,9 +406,58 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>IQBarButtonItem.m</string>
+			<string>IQUITextFieldView+Additions.m</string>
 			<key>path</key>
-			<string>IQKeyBoardManager/IQToolbar/IQBarButtonItem.m</string>
+			<string>IQKeyBoardManager/Categories/IQUITextFieldView+Additions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>327438AFD7BD5C14A4ADBD4695E991FA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>272643F56613CA0D336AE3DBF19DC404</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3664C5EC39BE858C524670104C1D17B1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>MJExtension.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3755813E806991794D335BE59E0D5786</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>602E16AB96BF5F1A02D9A27CAD4754D8</string>
+				<string>96F7F411E567B52B6190BDF0F3BE3488</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>37D479A13DD131F7D14593082DB4409A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>KeyboardManager.h</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/KeyboardManager.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -388,10 +474,34 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>38FE856E1AE81A94E44A9DAE88AEC8F9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8B6B4FB5A92E1EEDAFC98E6DD1E81CA7</string>
+				<string>C3E942A24436AFAE47C0F265F0CA369A</string>
+				<string>0C2B33BE64F0CF1C6ED2B2200953568E</string>
+				<string>BFE1D87E9D4D58C95CEAF1737F70C956</string>
+				<string>E5FDED1F3CFC60D892F02046B8F4FB91</string>
+				<string>764A917183297280E7F02642D7C8047C</string>
+				<string>630E7EB6AA410EB4E3F0AE39B187CF52</string>
+				<string>5E6AD069AEFAE5E8E3538B532F09674E</string>
+				<string>14F67635944C4C8A9A87FDD7CD101A2A</string>
+				<string>C3EB1AF50203F4E383BB02AA9EAA2539</string>
+				<string>5CB847381DE56E2B338F95A8FC79E620</string>
+				<string>E9FF6786EDCF303B455D928C19A94B23</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>3BB7637FF40EC296C4AAE5A3043D3CD4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1EEB44659AE7DDF761ADBA6B40AC5142</string>
+			<string>F837560D03295579B22065CF52EA5E03</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -405,7 +515,7 @@
 		<key>3BBBC34DB3A165D957B6BD877D3C7863</key>
 		<dict>
 			<key>fileRef</key>
-			<string>93501D4ADD0F8B8BB68A2796CE526A72</string>
+			<string>88BDAA9025E9AE971D39A203B51C1882</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -414,20 +524,19 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>3D41F8548FF21ACBDE3FDB190283F0D2</key>
+		<key>3CAB03CE944BBD5BD312744F4DC4ED0A</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>2152D8528BEDD0EA6477C25A7B66F36D</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IQUIViewController+Additions.m</string>
-			<key>path</key>
-			<string>IQKeyBoardManager/Categories/IQUIViewController+Additions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>3E4E89230EF59BC255123B67864ACF77</key>
 		<dict>
@@ -442,10 +551,25 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
+		<key>3FE5F27CE1F0F7C3D8ADBD10CD514A37</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4EDA4023AD431D50F102C42B86741562</string>
+				<string>EFFF86918FAE743D5DA1B39360BE9E95</string>
+				<string>5B1636D9815BDCA1836142904C8E3A3E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>40AA1B88EF844DFDAD145707D43A8935</key>
 		<dict>
 			<key>fileRef</key>
-			<string>58D7B0976B3577539BBDE99D84ADF634</string>
+			<string>BC6B3C23C365B335FE6466FFF25C5E12</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -457,7 +581,7 @@
 		<key>46F9B52C76BD763BCA8A557E5BEF2C66</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5FAC1E9194AE0048D925348881932283</string>
+			<string>0B87C749C738E3985864F92993B75577</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -468,18 +592,18 @@
 				</array>
 			</dict>
 		</dict>
-		<key>48006AF6F33871B55F433B3DA1134875</key>
+		<key>4805B5EED7AEAEBE924CD69AD56BD42E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>IQUIWindow+Hierarchy.h</string>
+			<string>MJDictionaryCache.m</string>
 			<key>path</key>
-			<string>IQKeyBoardManager/Categories/IQUIWindow+Hierarchy.h</string>
+			<string>MJExtension/MJDictionaryCache.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -496,10 +620,25 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>4EDA4023AD431D50F102C42B86741562</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libIQKeyboardManager.a</string>
+			<key>path</key>
+			<string>libIQKeyboardManager.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
 		<key>4F1214743763031E1C5E2064EE393163</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B10B009C1C9AD7490760FE369F1AA20C</string>
+			<string>8B3AB8A9B40F961B1CB5D529B0AB950A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -511,31 +650,57 @@
 		<key>4F2EE68DA6F41D70B90AB4496F541DEC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>03DE15FF013359102281D889B995153B</string>
+			<string>AE34BB0A73474A3479530F0BB85A5EE5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>50A05F1D6412456D32C5DEBE46E8586A</key>
+		<key>5104B05258159B04F7685F08EA3015AF</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>21523237F8FA404333865301D9D2296A</string>
-				<string>03DE15FF013359102281D889B995153B</string>
-				<string>84B5ADD46B52F480EED68B0908300E0E</string>
-			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/IQKeyboardManager</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>MJExtension</string>
+			<key>target</key>
+			<string>B23B3D15FFC0FC9893968F478086D58D</string>
+			<key>targetProxy</key>
+			<string>611FE0D3FBCB018660AA81A434005803</string>
+		</dict>
+		<key>53474E004DB736AE65470F6BAEAF55BE</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>4E762F23EC34ED4A6FF3312D84E33A40</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
 		<key>54C7BD3747DB7A79A16B1FDE19A408B6</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E9A74F812E8445F2BEFF613D241C6B3C</string>
+			<string>82337C18662AFA4C8881DCCE5511DE8C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -567,29 +732,44 @@
 			<key>productName</key>
 			<string>IQKeyboardManager</string>
 			<key>productReference</key>
-			<string>6CE143A1E1F7740187DD0ED2AFF9A4CE</string>
+			<string>4EDA4023AD431D50F102C42B86741562</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>58D7B0976B3577539BBDE99D84ADF634</key>
+		<key>58A269989D183DE4635AF44C2FFE969D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IQUIView+IQKeyboardToolbar.m</string>
+			<string>NSObject+MJClass.h</string>
 			<key>path</key>
-			<string>IQKeyBoardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m</string>
+			<string>MJExtension/NSObject+MJClass.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>58DA7ECAD074BBE7959C4840F9895DE9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQUIView+Hierarchy.h</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/Categories/IQUIView+Hierarchy.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>5924F6E92120D0381B5B7360744EA2D1</key>
 		<dict>
 			<key>fileRef</key>
-			<string>00017F8BF385AD0DA95AAC3A8E19EFE5</string>
+			<string>E318B8308A3A121D9D49EFB558A8EBC6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -598,23 +778,45 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>5A70E3B9609A1000CA21B92456AC45D9</key>
+		<key>5A6B1E07912E48C49E2E6E59701001AE</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>257C1A89A904657F796D0D033F2D06C8</string>
+				<string>61D3D263146EF150595EAD54ACEEAC4F</string>
 			</array>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
+			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>5B1636D9815BDCA1836142904C8E3A3E</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods.a</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>5CB847381DE56E2B338F95A8FC79E620</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8D352158FB0E87131F18E9D57DC942E0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>5E5F1BFA3BC1CBEC0AC37E13BB990632</key>
 		<dict>
 			<key>fileRef</key>
-			<string>74D536205A061A8469D89040E3E4B72E</string>
+			<string>D4A73E58535F3F614B5B55CCD2C7FF13</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -625,7 +827,68 @@
 				</array>
 			</dict>
 		</dict>
-		<key>5FAC1E9194AE0048D925348881932283</key>
+		<key>5E6AD069AEFAE5E8E3538B532F09674E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8624540706C269B6C546F95D05E0E7DB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>602E16AB96BF5F1A02D9A27CAD4754D8</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>3664C5EC39BE858C524670104C1D17B1</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/MJExtension/MJExtension-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>611FE0D3FBCB018660AA81A434005803</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>B23B3D15FFC0FC9893968F478086D58D</string>
+			<key>remoteInfo</key>
+			<string>MJExtension</string>
+		</dict>
+		<key>61D3D263146EF150595EAD54ACEEAC4F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>626B002AE48CBF70494EA9DA31D0615F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -634,16 +897,38 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IQTextView.h</string>
+			<string>IQUIView+IQKeyboardToolbar.h</string>
 			<key>path</key>
-			<string>IQKeyBoardManager/IQTextView/IQTextView.h</string>
+			<string>IQKeyBoardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>630E7EB6AA410EB4E3F0AE39B187CF52</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A77CF08273387803CB285B5380239AE1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>652DF1791CD55AECDF24269138ABDE36</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MJProperty.h</string>
+			<key>path</key>
+			<string>MJExtension/MJProperty.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>666C6472B562088DE399A51D420D3DFC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>14FF0472B902D836465F15982B259F2C</string>
+			<string>2F565C0846B68449168F4015FD312331</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -651,13 +936,6 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
-		</dict>
-		<key>671BDA6F0F1DB034B33788CD5625BA45</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>6911BECA35E7518D864239B7E898EEF3</key>
 		<dict>
@@ -672,62 +950,46 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6BD648B5F991170CEAC96F20C4B96205</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>98606E16A05936EA676C0F6F2005A6BB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6CAD7863C55F0A3E129E7C309BE09FD3</key>
+		<key>6922D719F86AAB956ACAE4DF8A655BDC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1C366E2CA40DAD885DFCB757522F8CC4</string>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
+		</dict>
+		<key>6AEEA4481150E6F702AF11B39C197545</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>98C98CDFB3F20F2925F6CD1F141BB14F</string>
+			<key>buildSettings</key>
 			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
 			</dict>
-		</dict>
-		<key>6CCCE4F16E15125BC210E65AF70BBF6A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>IQNSArray+Sort.m</string>
-			<key>path</key>
-			<string>IQKeyBoardManager/Categories/IQNSArray+Sort.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>Release</string>
 		</dict>
-		<key>6CE143A1E1F7740187DD0ED2AFF9A4CE</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libIQKeyboardManager.a</string>
-			<key>path</key>
-			<string>libIQKeyboardManager.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>74D536205A061A8469D89040E3E4B72E</key>
+		<key>6BCB2B86877D5B6DF732077427013110</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -736,13 +998,60 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IQBarButtonItem.h</string>
+			<string>NSObject+MJCoding.h</string>
 			<key>path</key>
-			<string>IQKeyBoardManager/IQToolbar/IQBarButtonItem.h</string>
+			<string>MJExtension/NSObject+MJCoding.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>78AC44FDB6420E28EFEF25CE4D59401D</key>
+		<key>6CAD7863C55F0A3E129E7C309BE09FD3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CEAFE3F3D2415F4C1B99A1B7AEC0223E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>6FE1811DADF01566350A80E2D1015E8B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C5E35256C4180A51B6C9660D8BE681B0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7617536E23E24B9404FED14E492EA1F4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSObject+MJKeyValue.h</string>
+			<key>path</key>
+			<string>MJExtension/NSObject+MJKeyValue.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>764A917183297280E7F02642D7C8047C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>78B30E789C213BE9567A5D205C2BB0E0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>78B30E789C213BE9567A5D205C2BB0E0</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -751,9 +1060,118 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>IQTitleBarButtonItem.m</string>
+			<string>MJPropertyKey.m</string>
 			<key>path</key>
-			<string>IQKeyBoardManager/IQToolbar/IQTitleBarButtonItem.m</string>
+			<string>MJExtension/MJPropertyKey.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7BD4C23EFF5E6FDB36AB4D541AA1C2FB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>00C948DCE47F5F5DC2E76F0F7231871F</string>
+				<string>AE34BB0A73474A3479530F0BB85A5EE5</string>
+				<string>011F706B1550CA67970DACDE4EECFDD6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/IQKeyboardManager</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7C905C080679C36642AD9C63E44E040B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQNSArray+Sort.h</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/Categories/IQNSArray+Sort.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7CC84216D8BD33A5027071613A7D9A98</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C2A0BA88AA3990EC36D640E2F8D689D3</string>
+				<string>4805B5EED7AEAEBE924CD69AD56BD42E</string>
+				<string>295BBAB8917F82CAD546B260B4627838</string>
+				<string>7D1069898B7245AB4C36FAE2F0DC0331</string>
+				<string>825A2F32E6A62FB66328BD8BF5201F71</string>
+				<string>D6C7C7D137B42F9BB6A2FE027DB7B3E0</string>
+				<string>9CD4D07E10E5350242ECDC6FC99FA0CC</string>
+				<string>652DF1791CD55AECDF24269138ABDE36</string>
+				<string>EB275851E545B44157F624C6B22DFE7C</string>
+				<string>1DCE11FE1A0C30759F0AF9AE5818135C</string>
+				<string>78B30E789C213BE9567A5D205C2BB0E0</string>
+				<string>AD2102CD7A37A47CD09DD2C7041437FA</string>
+				<string>A77CF08273387803CB285B5380239AE1</string>
+				<string>58A269989D183DE4635AF44C2FFE969D</string>
+				<string>8624540706C269B6C546F95D05E0E7DB</string>
+				<string>6BCB2B86877D5B6DF732077427013110</string>
+				<string>9239F6A67E495F602A02D7C455052E9E</string>
+				<string>7617536E23E24B9404FED14E492EA1F4</string>
+				<string>C35179DC0E17C366B994C41AAEBEE26E</string>
+				<string>2152D8528BEDD0EA6477C25A7B66F36D</string>
+				<string>8D352158FB0E87131F18E9D57DC942E0</string>
+				<string>8F9CD7ED4F653C9E2355ADE74550C90F</string>
+				<string>F17D1F4B3740313E4236984949EE5D9F</string>
+				<string>88BAC0D45EF3BC2FCFAE04E69A7C6151</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>MJExtension</string>
+			<key>path</key>
+			<string>MJExtension</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7CE23E179CD1F0088209DFA18D08F79F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0AFABD28B2E5C3292603A36599055EA7</string>
+				<string>DBC399A4B8E6521B2A885EA52612BFB0</string>
+				<string>2EDB111B41EBA9F2B002DAD15CB26687</string>
+				<string>DAD5C4333A7FA2DECFF4BEA4F17FEC6B</string>
+				<string>A044BDEEC463D3CB278C383FA8BABEC6</string>
+				<string>9734B73DB91553CC9279C5DEF98B973F</string>
+				<string>D34140627AA9906F84A524AB1A22748E</string>
+				<string>28D5E64861C74DB483E72DE4E35E4AA0</string>
+				<string>10B5AA3FFC425BAFB7A81C4B1C19CC1A</string>
+				<string>11BD5AE4F92EFD5DB5772947204A678C</string>
+				<string>3CAB03CE944BBD5BD312744F4DC4ED0A</string>
+				<string>D4110838F297CB76E9BFABBC1463004B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7D1069898B7245AB4C36FAE2F0DC0331</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MJExtensionConst.h</string>
+			<key>path</key>
+			<string>MJExtension/MJExtensionConst.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -763,8 +1181,8 @@
 			<array>
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
 				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>AF7CB0C733C2C86480F6BFB7B6120605</string>
-				<string>F98426BC37076CF2B4520CFEFAD7EDDB</string>
+				<string>82AF4409A963F130E0F60CF6246D0529</string>
+				<string>3FE5F27CE1F0F7C3D8ADBD10CD514A37</string>
 				<string>037C0CA694176A3C0915F62C9D20B3E6</string>
 			</array>
 			<key>isa</key>
@@ -775,7 +1193,7 @@
 		<key>7EDBE5C3AC3F84877A2970B983734AC4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A07460896BB2DF1F3E88AA255E69634D</string>
+			<string>F271B74D65430AF1B99F28FAC1C198E3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -785,6 +1203,36 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>82337C18662AFA4C8881DCCE5511DE8C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQKeyboardReturnKeyHandler.h</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/IQKeyboardReturnKeyHandler.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>825A2F32E6A62FB66328BD8BF5201F71</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MJExtensionConst.m</string>
+			<key>path</key>
+			<string>MJExtension/MJExtensionConst.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>828EA7074C529E5ECA05726E6603E65E</key>
 		<dict>
@@ -812,20 +1260,21 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>84B5ADD46B52F480EED68B0908300E0E</key>
+		<key>82AF4409A963F130E0F60CF6246D0529</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>1BD0E5F1E8CED9A6728757C9EBF99F05</string>
+				<string>7CC84216D8BD33A5027071613A7D9A98</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>IQKeyboardManager-prefix.pch</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8514B1E774131A0B746FB3810EBD7DD3</key>
+		<key>8624540706C269B6C546F95D05E0E7DB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -834,16 +1283,29 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>IQTextView.m</string>
+			<string>NSObject+MJClass.m</string>
 			<key>path</key>
-			<string>IQKeyBoardManager/IQTextView/IQTextView.m</string>
+			<string>MJExtension/NSObject+MJClass.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>86B50D8B4F670138A4CB8653B47068E9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>MJExtension-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>888E47B75CEF0C4D4AD896F140D7D88A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E02BBA4CE3F8863A11BEDD15BFF1468F</string>
+			<string>58DA7ECAD074BBE7959C4840F9895DE9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -854,49 +1316,24 @@
 				</array>
 			</dict>
 		</dict>
-		<key>8A38F262263D4B21E35128E399671B08</key>
+		<key>88BAC0D45EF3BC2FCFAE04E69A7C6151</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>children</key>
 			<array>
-				<string>0DC5BC4378D6862AE8B17E78971ACF0F</string>
+				<string>3664C5EC39BE858C524670104C1D17B1</string>
+				<string>86B50D8B4F670138A4CB8653B47068E9</string>
+				<string>C9E0E27DDC1CFD843AD0D7AF27BA4D0D</string>
 			</array>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8FD1B4727A63F5CA9153D83D065E5555</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>libPods.a</string>
+			<string>Support Files</string>
 			<key>path</key>
-			<string>libPods.a</string>
+			<string>../Target Support Files/MJExtension</string>
 			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>90F6E383135A51A1BA2C6842630697F0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D7924BA18734B3FD07E05300B5DBF1AE</string>
-				<string>0C1901FFA5F94877A8192386F8242147</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>93501D4ADD0F8B8BB68A2796CE526A72</key>
+		<key>88BDAA9025E9AE971D39A203B51C1882</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -911,7 +1348,70 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>95FA4FC9FC55DF99243C591D19C48BAC</key>
+		<key>899D399EF4A1DD9CECF7B8990FB2D6FB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>327438AFD7BD5C14A4ADBD4695E991FA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8A38F262263D4B21E35128E399671B08</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0DC5BC4378D6862AE8B17E78971ACF0F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8B3AB8A9B40F961B1CB5D529B0AB950A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQKeyboardReturnKeyHandler.m</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/IQKeyboardReturnKeyHandler.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8B6B4FB5A92E1EEDAFC98E6DD1E81CA7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4805B5EED7AEAEBE924CD69AD56BD42E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8D352158FB0E87131F18E9D57DC942E0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSObject+MJProperty.m</string>
+			<key>path</key>
+			<string>MJExtension/NSObject+MJProperty.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8F9CD7ED4F653C9E2355ADE74550C90F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -920,26 +1420,89 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IQNSArray+Sort.h</string>
+			<string>NSString+MJExtension.h</string>
 			<key>path</key>
-			<string>IQKeyBoardManager/Categories/IQNSArray+Sort.h</string>
+			<string>MJExtension/NSString+MJExtension.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>98606E16A05936EA676C0F6F2005A6BB</key>
+		<key>9239F6A67E495F602A02D7C455052E9E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>wrapper.plug-in</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>IQKeyboardManager.bundle</string>
+			<string>NSObject+MJCoding.m</string>
 			<key>path</key>
-			<string>IQKeyBoardManager/Resources/IQKeyboardManager.bundle</string>
+			<string>MJExtension/NSObject+MJCoding.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>961BD7ACF4F530D420C2E8417D232B47</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQTitleBarButtonItem.m</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/IQToolbar/IQTitleBarButtonItem.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>96F7F411E567B52B6190BDF0F3BE3488</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>3664C5EC39BE858C524670104C1D17B1</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/MJExtension/MJExtension-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>9734B73DB91553CC9279C5DEF98B973F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1DCE11FE1A0C30759F0AF9AE5818135C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>98C98CDFB3F20F2925F6CD1F141BB14F</key>
 		<dict>
@@ -954,25 +1517,39 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A07460896BB2DF1F3E88AA255E69634D</key>
+		<key>9CD4D07E10E5350242ECDC6FC99FA0CC</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>IQTitleBarButtonItem.h</string>
+			<string>MJFoundation.m</string>
 			<key>path</key>
-			<string>IQKeyBoardManager/IQToolbar/IQTitleBarButtonItem.h</string>
+			<string>MJExtension/MJFoundation.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A044BDEEC463D3CB278C383FA8BABEC6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>652DF1791CD55AECDF24269138ABDE36</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>A148CB4B998AEC919DD44F621766A9D7</key>
 		<dict>
 			<key>fileRef</key>
-			<string>101190082C4216C179E398308DB617DC</string>
+			<string>041B9D8E1D8613D03368204C8D3D5FA6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -996,25 +1573,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A43A77FD0E370CC11EF02B306371E17C</key>
+		<key>A5F2DE1DED459F851E527D7E86767028</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>IQUIViewController+Additions.h</string>
-			<key>path</key>
-			<string>IQKeyBoardManager/Categories/IQUIViewController+Additions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>IQKeyboardManager</string>
+			<key>target</key>
+			<string>55DBDD8B7D446F1D618F303A9FB53209</string>
+			<key>targetProxy</key>
+			<string>FB9065729448F98D1EBC78CA01538373</string>
 		</dict>
 		<key>A689CCF33E3CC4ED526B996AFF2D90F3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>312C95054D58AAA8C3BA30F2CD9BE736</string>
+			<string>C93F01C8A0EEF8E066D9451FEC439182</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1096,10 +1669,38 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>A77CF08273387803CB285B5380239AE1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MJPropertyType.m</string>
+			<key>path</key>
+			<string>MJExtension/MJPropertyType.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A904D35B856ADA9E57A6F45EAC155260</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6922D719F86AAB956ACAE4DF8A655BDC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>A97EE83B4907928D8913C8C8DAAFB47F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A43A77FD0E370CC11EF02B306371E17C</string>
+			<string>C2EBAD55FF132F9C515057B0B260D081</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1110,20 +1711,22 @@
 				</array>
 			</dict>
 		</dict>
-		<key>AF7CB0C733C2C86480F6BFB7B6120605</key>
+		<key>AD2102CD7A37A47CD09DD2C7041437FA</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>F5DDACC6B19C68C44F74A160E5F4CECD</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Pods</string>
+			<string>MJPropertyType.h</string>
+			<key>path</key>
+			<string>MJExtension/MJPropertyType.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B10B009C1C9AD7490760FE369F1AA20C</key>
+		<key>AE34BB0A73474A3479530F0BB85A5EE5</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1131,12 +1734,35 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IQKeyboardReturnKeyHandler.m</string>
 			<key>path</key>
-			<string>IQKeyBoardManager/IQKeyboardReturnKeyHandler.m</string>
+			<string>IQKeyboardManager-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B23B3D15FFC0FC9893968F478086D58D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>3755813E806991794D335BE59E0D5786</string>
+			<key>buildPhases</key>
+			<array>
+				<string>38FE856E1AE81A94E44A9DAE88AEC8F9</string>
+				<string>5A6B1E07912E48C49E2E6E59701001AE</string>
+				<string>7CE23E179CD1F0088209DFA18D08F79F</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>MJExtension</string>
+			<key>productName</key>
+			<string>MJExtension</string>
+			<key>productReference</key>
+			<string>EFFF86918FAE743D5DA1B39360BE9E95</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
 		</dict>
 		<key>B3D1D13E0C6553800746CB8FD61CF946</key>
 		<dict>
@@ -1159,21 +1785,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B457EE8046681DC54E42E33DA62E7690</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>IQKeyboardManager</string>
-			<key>target</key>
-			<string>55DBDD8B7D446F1D618F303A9FB53209</string>
-			<key>targetProxy</key>
-			<string>2308508CA5A23209B38619ADA4B690CE</string>
-		</dict>
 		<key>B6E134AF50870380B2A5329AD69D3774</key>
 		<dict>
 			<key>fileRef</key>
-			<string>48006AF6F33871B55F433B3DA1134875</string>
+			<string>2161E6DDC1EC118E1EFA683CCA0C9151</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1204,7 +1819,7 @@
 		<key>BA74A4A62B7B48C13D625D4BA0C83398</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F048D135B67853EAABB92F38EE519704</string>
+			<string>04464C49D83255B672FA7D2B06CD01CF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1228,25 +1843,25 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BC4411EBEEDCDBFA964A29DB1359917D</key>
+		<key>BC6B3C23C365B335FE6466FFF25C5E12</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>IQKeyboardManager.h</string>
+			<string>IQUIView+IQKeyboardToolbar.m</string>
 			<key>path</key>
-			<string>IQKeyBoardManager/IQKeyboardManager.h</string>
+			<string>IQKeyBoardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>BED6E209AC518D1FD7306099B69C7150</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D118476AF120B0205392D20666D9F824</string>
+			<string>F93B0967296F379A6106B4305A345DBE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1268,10 +1883,17 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>BFE1D87E9D4D58C95CEAF1737F70C956</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9CD4D07E10E5350242ECDC6FC99FA0CC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>C0B01C1B9104EC68CBE787C464383DEF</key>
 		<dict>
 			<key>fileRef</key>
-			<string>95FA4FC9FC55DF99243C591D19C48BAC</string>
+			<string>7C905C080679C36642AD9C63E44E040B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1282,7 +1904,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>D083AAFD32F4F0DC18ABE4A46132142D</key>
+		<key>C2A0BA88AA3990EC36D640E2F8D689D3</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1291,9 +1913,126 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IQUITextFieldView+Additions.h</string>
+			<string>MJDictionaryCache.h</string>
 			<key>path</key>
-			<string>IQKeyBoardManager/Categories/IQUITextFieldView+Additions.h</string>
+			<string>MJExtension/MJDictionaryCache.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C2EBAD55FF132F9C515057B0B260D081</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQUIViewController+Additions.h</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/Categories/IQUIViewController+Additions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C35179DC0E17C366B994C41AAEBEE26E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSObject+MJKeyValue.m</string>
+			<key>path</key>
+			<string>MJExtension/NSObject+MJKeyValue.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C3E942A24436AFAE47C0F265F0CA369A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>86B50D8B4F670138A4CB8653B47068E9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C3EB1AF50203F4E383BB02AA9EAA2539</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C35179DC0E17C366B994C41AAEBEE26E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C50F5684780C66F376181E78F2A09A44</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQUIViewController+Additions.m</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/Categories/IQUIViewController+Additions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5E35256C4180A51B6C9660D8BE681B0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.plug-in</string>
+			<key>name</key>
+			<string>IQKeyboardManager.bundle</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/Resources/IQKeyboardManager.bundle</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C93F01C8A0EEF8E066D9451FEC439182</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQBarButtonItem.m</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/IQToolbar/IQBarButtonItem.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C9E0E27DDC1CFD843AD0D7AF27BA4D0D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>MJExtension-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CEAFE3F3D2415F4C1B99A1B7AEC0223E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQKeyboardManager.m</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/IQKeyboardManager.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1325,25 +2064,38 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>D118476AF120B0205392D20666D9F824</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IQUIWindow+Hierarchy.m</string>
-			<key>path</key>
-			<string>IQKeyBoardManager/Categories/IQUIWindow+Hierarchy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>D17A45E6282383F035442BBDC1E9E28F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>232A334A446A931E589D560745C03FF9</string>
+			<string>626B002AE48CBF70494EA9DA31D0615F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>D34140627AA9906F84A524AB1A22748E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AD2102CD7A37A47CD09DD2C7041437FA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>D4110838F297CB76E9BFABBC1463004B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8F9CD7ED4F653C9E2355ADE74550C90F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1380,7 +2132,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>F98426BC37076CF2B4520CFEFAD7EDDB</string>
+			<string>3FE5F27CE1F0F7C3D8ADBD10CD514A37</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -1390,42 +2142,11 @@
 			<key>targets</key>
 			<array>
 				<string>55DBDD8B7D446F1D618F303A9FB53209</string>
-				<string>17BA9304BBD30327354E0002F305E612</string>
+				<string>B23B3D15FFC0FC9893968F478086D58D</string>
+				<string>D83725F67EF0D5B9816FC14247A0B983</string>
 			</array>
 		</dict>
-		<key>D7924BA18734B3FD07E05300B5DBF1AE</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4E762F23EC34ED4A6FF3312D84E33A40</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E02BBA4CE3F8863A11BEDD15BFF1468F</key>
+		<key>D4A73E58535F3F614B5B55CCD2C7FF13</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1434,16 +2155,116 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IQUIView+Hierarchy.h</string>
+			<string>IQBarButtonItem.h</string>
 			<key>path</key>
-			<string>IQKeyBoardManager/Categories/IQUIView+Hierarchy.h</string>
+			<string>IQKeyBoardManager/IQToolbar/IQBarButtonItem.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D6C7C7D137B42F9BB6A2FE027DB7B3E0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MJFoundation.h</string>
+			<key>path</key>
+			<string>MJExtension/MJFoundation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D83725F67EF0D5B9816FC14247A0B983</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>117B126FEF2C7188D948FA07AE7F7E0B</string>
+			<key>buildPhases</key>
+			<array>
+				<string>899D399EF4A1DD9CECF7B8990FB2D6FB</string>
+				<string>A904D35B856ADA9E57A6F45EAC155260</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>A5F2DE1DED459F851E527D7E86767028</string>
+				<string>5104B05258159B04F7685F08EA3015AF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>productName</key>
+			<string>Pods</string>
+			<key>productReference</key>
+			<string>5B1636D9815BDCA1836142904C8E3A3E</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>D9E67E2A77E1E3890F06F28F91B5F5B8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQToolbar.m</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/IQToolbar/IQToolbar.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DAD5C4333A7FA2DECFF4BEA4F17FEC6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D6C7C7D137B42F9BB6A2FE027DB7B3E0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>DBC399A4B8E6521B2A885EA52612BFB0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>295BBAB8917F82CAD546B260B4627838</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>DCEAC21222EDD10354196F655034296A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQTextView.m</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/IQTextView/IQTextView.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>E080CB7A121A9414EF94640AD4ED6D7D</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>21523237F8FA404333865301D9D2296A</string>
+			<string>00C948DCE47F5F5DC2E76F0F7231871F</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -1474,10 +2295,40 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>E11C0116A8ED7F660CF9EB42B88F5F07</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQKeyboardManagerConstants.h</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/Constants/IQKeyboardManagerConstants.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E318B8308A3A121D9D49EFB558A8EBC6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQUIView+Hierarchy.m</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/Categories/IQUIView+Hierarchy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>E33E07CEDAC64B9605CA56253C9C79E1</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>21523237F8FA404333865301D9D2296A</string>
+			<string>00C948DCE47F5F5DC2E76F0F7231871F</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -1522,10 +2373,32 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
+		<key>E5FDED1F3CFC60D892F02046B8F4FB91</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EB275851E545B44157F624C6B22DFE7C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E83FF91CB60051903756F1C68CEC5050</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQNSArray+Sort.m</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/Categories/IQNSArray+Sort.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>E88BB5BB359FB444E287447DB7321B94</key>
 		<dict>
 			<key>fileRef</key>
-			<string>78AC44FDB6420E28EFEF25CE4D59401D</string>
+			<string>961BD7ACF4F530D420C2E8417D232B47</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1534,25 +2407,32 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>E9A74F812E8445F2BEFF613D241C6B3C</key>
+		<key>E9FF6786EDCF303B455D928C19A94B23</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F17D1F4B3740313E4236984949EE5D9F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EB275851E545B44157F624C6B22DFE7C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>IQKeyboardReturnKeyHandler.h</string>
+			<string>MJProperty.m</string>
 			<key>path</key>
-			<string>IQKeyBoardManager/IQKeyboardReturnKeyHandler.h</string>
+			<string>MJExtension/MJProperty.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>EF7562E050557A145391C261BC61A965</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D083AAFD32F4F0DC18ABE4A46132142D</string>
+			<string>043E9C9B5AD572D433272E23B2687C68</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1566,7 +2446,7 @@
 		<key>EF9E62E429F1E6DF74EF78980F42EC4A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0BB5EA1D6E7FA73209CC4ABFAF9965FE</string>
+			<string>37D479A13DD131F7D14593082DB4409A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1577,7 +2457,51 @@
 				</array>
 			</dict>
 		</dict>
-		<key>F048D135B67853EAABB92F38EE519704</key>
+		<key>EFFF86918FAE743D5DA1B39360BE9E95</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libMJExtension.a</string>
+			<key>path</key>
+			<string>libMJExtension.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>F06CB547CE2E14B0A9ACC48270B24BF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E11C0116A8ED7F660CF9EB42B88F5F07</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>F17D1F4B3740313E4236984949EE5D9F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSString+MJExtension.m</string>
+			<key>path</key>
+			<string>MJExtension/NSString+MJExtension.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F271B74D65430AF1B99F28FAC1C198E3</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1586,82 +2510,54 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IQSegmentedNextPrevious.h</string>
+			<string>IQTitleBarButtonItem.h</string>
 			<key>path</key>
-			<string>IQKeyBoardManager/IQSegmentedNextPrevious/IQSegmentedNextPrevious.h</string>
+			<string>IQKeyBoardManager/IQToolbar/IQTitleBarButtonItem.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F06CB547CE2E14B0A9ACC48270B24BF5</key>
+		<key>F4AE511B2313B6FA3D96133EBBE51152</key>
 		<dict>
-			<key>fileRef</key>
-			<string>06F1D9E6B2091F771BC879E8B8CBF381</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F5DDACC6B19C68C44F74A160E5F4CECD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>74D536205A061A8469D89040E3E4B72E</string>
-				<string>312C95054D58AAA8C3BA30F2CD9BE736</string>
-				<string>BC4411EBEEDCDBFA964A29DB1359917D</string>
-				<string>1C366E2CA40DAD885DFCB757522F8CC4</string>
-				<string>06F1D9E6B2091F771BC879E8B8CBF381</string>
-				<string>101190082C4216C179E398308DB617DC</string>
-				<string>E9A74F812E8445F2BEFF613D241C6B3C</string>
-				<string>B10B009C1C9AD7490760FE369F1AA20C</string>
-				<string>95FA4FC9FC55DF99243C591D19C48BAC</string>
-				<string>6CCCE4F16E15125BC210E65AF70BBF6A</string>
-				<string>F048D135B67853EAABB92F38EE519704</string>
-				<string>93501D4ADD0F8B8BB68A2796CE526A72</string>
-				<string>5FAC1E9194AE0048D925348881932283</string>
-				<string>8514B1E774131A0B746FB3810EBD7DD3</string>
-				<string>A07460896BB2DF1F3E88AA255E69634D</string>
-				<string>78AC44FDB6420E28EFEF25CE4D59401D</string>
-				<string>1EEB44659AE7DDF761ADBA6B40AC5142</string>
-				<string>14E97E9CD4229CDDF69F34A41B531509</string>
-				<string>D083AAFD32F4F0DC18ABE4A46132142D</string>
-				<string>14FF0472B902D836465F15982B259F2C</string>
-				<string>E02BBA4CE3F8863A11BEDD15BFF1468F</string>
-				<string>00017F8BF385AD0DA95AAC3A8E19EFE5</string>
-				<string>232A334A446A931E589D560745C03FF9</string>
-				<string>58D7B0976B3577539BBDE99D84ADF634</string>
-				<string>A43A77FD0E370CC11EF02B306371E17C</string>
-				<string>3D41F8548FF21ACBDE3FDB190283F0D2</string>
-				<string>48006AF6F33871B55F433B3DA1134875</string>
-				<string>D118476AF120B0205392D20666D9F824</string>
-				<string>0BB5EA1D6E7FA73209CC4ABFAF9965FE</string>
-				<string>6BD648B5F991170CEAC96F20C4B96205</string>
-				<string>50A05F1D6412456D32C5DEBE46E8586A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IQKeyboardManager</string>
+			<string>IQKeyboardManager.h</string>
 			<key>path</key>
-			<string>IQKeyboardManager</string>
+			<string>IQKeyBoardManager/IQKeyboardManager.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F98426BC37076CF2B4520CFEFAD7EDDB</key>
+		<key>F837560D03295579B22065CF52EA5E03</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>6CE143A1E1F7740187DD0ED2AFF9A4CE</string>
-				<string>8FD1B4727A63F5CA9153D83D065E5555</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Products</string>
+			<string>IQToolbar.h</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/IQToolbar/IQToolbar.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F93B0967296F379A6106B4305A345DBE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQUIWindow+Hierarchy.m</string>
+			<key>path</key>
+			<string>IQKeyBoardManager/Categories/IQUIWindow+Hierarchy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1733,10 +2629,23 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>FB9065729448F98D1EBC78CA01538373</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>55DBDD8B7D446F1D618F303A9FB53209</string>
+			<key>remoteInfo</key>
+			<string>IQKeyboardManager</string>
+		</dict>
 		<key>FD51969EC586F2521636A394C87CE7A5</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8514B1E774131A0B746FB3810EBD7DD3</string>
+			<string>DCEAC21222EDD10354196F655034296A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1748,7 +2657,7 @@
 		<key>FF89FEDD8D29F75D651EB1E28E4E6DE4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>14E97E9CD4229CDDF69F34A41B531509</string>
+			<string>D9E67E2A77E1E3890F06F28F91B5F5B8</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
