@@ -21,14 +21,23 @@
     // Configure the view for the selected state
 }
 
-- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
-    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier tableView:(UITableView *)tableView {
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier tableView:tableView]) {
         [self createUI];
         
         self.backgroundColor = kBackgroundColor;
     }
     return self;
 }
+
+//- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+//    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+//        [self createUI];
+//        
+//        self.backgroundColor = kBackgroundColor;
+//    }
+//    return self;
+//}
 
 - (void)createUI {
     // 时间
@@ -112,7 +121,7 @@
     [self.contentView addSubview:_addressLabel];
     
     // 分割线
-    UIView *lineView = [[UIView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(_addressLabel.frame) + kPadding_10, kScreenWidth, kLineHeight)];
+    UIView *lineView = [[UIView alloc] initWithFrame:CGRectMake(0, kTableCellHeight - 1, kScreenWidth, kLineHeight)];
     lineView.backgroundColor = [UIColor grayColor];
 
     [self.contentView addSubview:lineView];

@@ -30,6 +30,7 @@
 #import "JKDBModel.h"
 #import "HoneyModel.h"
 #import "HoneyCell.h"
+#import "SWTableViewCell.h"
 
 #pragma mark - Category - 
 
@@ -57,6 +58,7 @@
 
 #define kCustomNaviHeight                   (kDeviceOSVersion >= 7.0 ? 64 : 0)
 #define kNavTabBarHeight                    64
+#define kTableCellHeight                    165
 
 #define kPadding_5                          5
 #define kPadding_10                         10
@@ -77,6 +79,7 @@
 #define kDefaultWhiteColor                  COLOR(255, 255, 255, 1)
 #define kDefaultBlackColor                  COLOR(0, 0, 0, 1)
 #define kBackgroundColor                    COLOR(248, 248, 248, 1)
+#define kRedColor                           ColorFromRGB(0xd94858)
 
 #define COLOR(r, g, b, a)                   [UIColor colorWithRed:(r / 255.0) green:(g / 255.0) blue:(b / 255.0) alpha:(a * 1.0)]
 

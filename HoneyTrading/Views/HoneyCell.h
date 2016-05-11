@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SWTableViewCell.h"
 
-@interface HoneyCell : UITableViewCell
+@interface HoneyCell : SWTableViewCell
 
 @property (strong, nonatomic) UILabel *nameLabel;
 @property (strong, nonatomic) UILabel *phoneLabel;
@@ -22,5 +23,7 @@
 @property (nonatomic, strong) UILabel *salesLabel;
 
 - (void)config:(HoneyModel *)honeyModel;
+
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier tableView:(UITableView *)tableView;
 
 @end

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9563E7671CE31F29005A69B8 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 9563E75C1CE31F29005A69B8 /* NSMutableArray+SWUtilityButtons.m */; };
+		9563E7681CE31F29005A69B8 /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9563E75E1CE31F29005A69B8 /* SWCellScrollView.m */; };
+		9563E7691CE31F29005A69B8 /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9563E7601CE31F29005A69B8 /* SWLongPressGestureRecognizer.m */; };
+		9563E76A1CE31F29005A69B8 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9563E7621CE31F29005A69B8 /* SWTableViewCell.m */; };
+		9563E76B1CE31F29005A69B8 /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9563E7641CE31F29005A69B8 /* SWUtilityButtonTapGestureRecognizer.m */; };
+		9563E76C1CE31F29005A69B8 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9563E7661CE31F29005A69B8 /* SWUtilityButtonView.m */; };
 		95731C211CE07BEE00079267 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95731C201CE07BEE00079267 /* AddViewController.m */; };
 		95731C241CE07C1900079267 /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95731C231CE07C1900079267 /* ShowViewController.m */; };
 		95731C261CE07C9500079267 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 95731C251CE07C9500079267 /* libsqlite3.tbd */; };
@@ -46,6 +52,18 @@
 /* Begin PBXFileReference section */
 		1B721831B612E532B820FF38 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		303CADE1199F7BD94626F3CA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9563E75B1CE31F29005A69B8 /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		9563E75C1CE31F29005A69B8 /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		9563E75D1CE31F29005A69B8 /* SWCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCellScrollView.h; sourceTree = "<group>"; };
+		9563E75E1CE31F29005A69B8 /* SWCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCellScrollView.m; sourceTree = "<group>"; };
+		9563E75F1CE31F29005A69B8 /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		9563E7601CE31F29005A69B8 /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		9563E7611CE31F29005A69B8 /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		9563E7621CE31F29005A69B8 /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+		9563E7631CE31F29005A69B8 /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		9563E7641CE31F29005A69B8 /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		9563E7651CE31F29005A69B8 /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonView.h; sourceTree = "<group>"; };
+		9563E7661CE31F29005A69B8 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonView.m; sourceTree = "<group>"; };
 		95731C1F1CE07BEE00079267 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddViewController.h; path = ../AddViewController.h; sourceTree = "<group>"; };
 		95731C201CE07BEE00079267 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddViewController.m; path = ../AddViewController.m; sourceTree = "<group>"; };
 		95731C221CE07C1900079267 /* ShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowViewController.h; path = ../ShowViewController.h; sourceTree = "<group>"; };
@@ -136,6 +154,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9563E75A1CE31F29005A69B8 /* SwipeTableView */ = {
+			isa = PBXGroup;
+			children = (
+				9563E75B1CE31F29005A69B8 /* NSMutableArray+SWUtilityButtons.h */,
+				9563E75C1CE31F29005A69B8 /* NSMutableArray+SWUtilityButtons.m */,
+				9563E75D1CE31F29005A69B8 /* SWCellScrollView.h */,
+				9563E75E1CE31F29005A69B8 /* SWCellScrollView.m */,
+				9563E75F1CE31F29005A69B8 /* SWLongPressGestureRecognizer.h */,
+				9563E7601CE31F29005A69B8 /* SWLongPressGestureRecognizer.m */,
+				9563E7611CE31F29005A69B8 /* SWTableViewCell.h */,
+				9563E7621CE31F29005A69B8 /* SWTableViewCell.m */,
+				9563E7631CE31F29005A69B8 /* SWUtilityButtonTapGestureRecognizer.h */,
+				9563E7641CE31F29005A69B8 /* SWUtilityButtonTapGestureRecognizer.m */,
+				9563E7651CE31F29005A69B8 /* SWUtilityButtonView.h */,
+				9563E7661CE31F29005A69B8 /* SWUtilityButtonView.m */,
+			);
+			path = SwipeTableView;
+			sourceTree = "<group>";
+		};
 		95731C2A1CE0A6A700079267 /* JKDBModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +239,7 @@
 		95AC884D1CE1B3980064FF5E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				9563E75A1CE31F29005A69B8 /* SwipeTableView */,
 				95AC884E1CE1B3980064FF5E /* NSDictionary+safeObjectForKey.h */,
 				95AC884F1CE1B3980064FF5E /* NSDictionary+safeObjectForKey.m */,
 				95AC88501CE1B3980064FF5E /* NSString+Tools.h */,
@@ -432,6 +470,7 @@
 				95731C211CE07BEE00079267 /* AddViewController.m in Sources */,
 				95731C3F1CE0A7EF00079267 /* FMDatabasePool.m in Sources */,
 				95731C411CE0A7EF00079267 /* FMResultSet.m in Sources */,
+				9563E76C1CE31F29005A69B8 /* SWUtilityButtonView.m in Sources */,
 				95AC88761CE1B3980064FF5E /* UIImage+ImageWithColor.m in Sources */,
 				95AC88721CE1B3980064FF5E /* UITextView+OverrideBaseFont.m in Sources */,
 				95AC887F1CE1CD380064FF5E /* HomeViewController.m in Sources */,
@@ -446,16 +485,21 @@
 				95731C3E1CE0A7EF00079267 /* FMDatabaseAdditions.m in Sources */,
 				95AC88741CE1B3980064FF5E /* UIImage+Compress.m in Sources */,
 				95AC88491CE170990064FF5E /* HoneyModel.m in Sources */,
+				9563E7691CE31F29005A69B8 /* SWLongPressGestureRecognizer.m in Sources */,
 				95AC886D1CE1B3980064FF5E /* Aspects.m in Sources */,
+				9563E76B1CE31F29005A69B8 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
 				95AC886E1CE1B3980064FF5E /* UIButton+OverrideBaseFont.m in Sources */,
 				95BA3F751CE056E500619AB4 /* main.m in Sources */,
 				95AC88701CE1B3980064FF5E /* UILabel+OverrideBaseFont.m in Sources */,
 				95AC88751CE1B3980064FF5E /* UIImage+Cut.m in Sources */,
 				95AC88731CE1B3980064FF5E /* UIImage+Blur.m in Sources */,
 				95AC88771CE1B3980064FF5E /* UIImage+Screenshot.m in Sources */,
+				9563E76A1CE31F29005A69B8 /* SWTableViewCell.m in Sources */,
 				95731C241CE07C1900079267 /* ShowViewController.m in Sources */,
 				95AC886B1CE1B3980064FF5E /* NSDictionary+safeObjectForKey.m in Sources */,
 				95AC886C1CE1B3980064FF5E /* NSString+Tools.m in Sources */,
+				9563E7681CE31F29005A69B8 /* SWCellScrollView.m in Sources */,
+				9563E7671CE31F29005A69B8 /* NSMutableArray+SWUtilityButtons.m in Sources */,
 				95AC88711CE1B3980064FF5E /* UITextField+OverrideBaseFont.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

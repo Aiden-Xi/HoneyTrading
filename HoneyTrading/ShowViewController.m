@@ -28,6 +28,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    UILabel *naviTitle = [[UILabel alloc] initWithFrame:CGRectMake((kScreenWidth - 200) / 2, 0, 200, 44)];
+    
+    naviTitle.font = kFontSizeFamily(20);
+    naviTitle.backgroundColor = [UIColor clearColor];
+    naviTitle.textColor = kBackgroundColor;
+    naviTitle.textAlignment = NSTextAlignmentCenter;
+    naviTitle.text = @"销售记录详情";
+    
+    self.navigationItem.titleView = naviTitle;
+
     _dateField.text = _honeyModel.date;
     _salceNameField.text = _honeyModel.sales_name;
     _nameField.text = _honeyModel.name;
@@ -62,6 +72,10 @@
     
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
         [honey update];
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self.navigationController popToRootViewControllerAnimated:YES];
+        });
     });
 }
 
