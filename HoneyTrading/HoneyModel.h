@@ -11,12 +11,17 @@
 @interface HoneyModel : JKDBModel
 
 /**
- *  地址
+ *  日期
  */
-@property (nonatomic, copy) NSString *address;
+@property (nonatomic, copy) NSString *date;
 
 /**
- *  姓名
+ *  销售人
+ */
+@property (nonatomic, copy) NSString *sales_name;
+
+/**
+ *  购买者姓名
  */
 @property (nonatomic, copy) NSString *name;
 
@@ -24,11 +29,6 @@
  *  电话
  */
 @property (nonatomic, copy) NSString *phone;
-
-/**
- *  数量
- */
-@property (nonatomic, copy) NSString *count;
 
 /**
  *  付款金额
@@ -41,13 +41,23 @@
 @property (nonatomic, copy) NSString *shipping;
 
 /**
+ *  数量
+ */
+@property (nonatomic, copy) NSString *count;
+
+/**
  *  净赚
  */
 @property (nonatomic, copy) NSString *gross;
 
 /**
- *  日期
+ *  出邮费人
  */
-@property (nonatomic, copy) NSString *date;
+@property (nonatomic, copy) NSString *shipping_name;
+
+/**
+ *  地址
+ */
+@property (nonatomic, copy) NSString *address;
 
 @end

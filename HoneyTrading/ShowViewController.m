@@ -9,6 +9,17 @@
 #import "ShowViewController.h"
 
 @interface ShowViewController ()
+@property (strong, nonatomic) IBOutlet UITextField *dateField;
+@property (strong, nonatomic) IBOutlet UITextField *salceNameField;
+@property (strong, nonatomic) IBOutlet UITextField *nameField;
+@property (strong, nonatomic) IBOutlet UITextField *moneyField;
+@property (strong, nonatomic) IBOutlet UITextField *countField;
+@property (strong, nonatomic) IBOutlet UITextField *phoneField;
+@property (strong, nonatomic) IBOutlet UITextField *shippingField;
+@property (strong, nonatomic) IBOutlet UITextField *shippingNameField;
+@property (strong, nonatomic) IBOutlet UITextField *grossField;
+@property (strong, nonatomic) IBOutlet UITextField *addressField;
+@property (strong, nonatomic) IBOutlet UIButton *saveButton;
 
 @end
 
@@ -17,7 +28,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self createUI];
+    _dateField.text = _honeyModel.date;
+    _salceNameField.text = _honeyModel.sales_name;
+    _nameField.text = _honeyModel.name;
+    _moneyField.text = _honeyModel.allMoney;
+    _countField.text = _honeyModel.count;
+    _phoneField.text = _honeyModel.phone;
+    _shippingField.text = _honeyModel.shipping;
+    _shippingNameField.text = _honeyModel.shipping_name;
+    _grossField.text = _honeyModel.gross;
+    _addressField.text = _honeyModel.address;
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -25,18 +46,24 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)createUI {
+- (IBAction)saveButtonClick:(UIButton *)sender {
+    HoneyModel *honey = [[HoneyModel alloc] init];
+    honey.date = _dateField.text;
+    honey.sales_name = _salceNameField.text;
+    honey.pk = _honeyModel.pk;
+    honey.name = _nameField.text;
+    honey.allMoney = _moneyField.text;
+    honey.count = _countField.text;
+    honey.phone = _phoneField.text;
+    honey.shipping = _shippingField.text;
+    honey.shipping_name = _shippingNameField.text;
+    honey.gross = _grossField.text;
+    honey.address = _addressField.text;
     
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        [honey update];
+    });
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

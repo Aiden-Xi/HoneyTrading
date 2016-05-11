@@ -32,12 +32,20 @@
 
 - (void)createUI {
     // 时间
-    _dateLabel = [[UILabel alloc] initWithFrame:CGRectMake(kPadding_10, kPadding_5, kScreenWidth - 2 * kPadding_10, kPadding_20)];
+    _dateLabel = [[UILabel alloc] initWithFrame:CGRectMake(kPadding_10, kPadding_5, (kScreenWidth - 2 * kPadding_10) / 2, kPadding_20)];
     _dateLabel.font = kFontSizeFamily(20);
     _dateLabel.textColor = kDefaultBlackColor;
     _dateLabel.textAlignment = NSTextAlignmentLeft;
     
     [self.contentView addSubview:_dateLabel];
+    
+    // 销售人
+    _salesLabel = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(_dateLabel.frame), kPadding_5, (kScreenWidth - 2 * kPadding_10) / 2, kPadding_20)];
+    _salesLabel.font = kFontSizeFamily(20);
+    _salesLabel.textColor = kDefaultBlackColor;
+    _salesLabel.textAlignment = NSTextAlignmentLeft;
+    
+    [self.contentView addSubview:_salesLabel];
 
     // 姓名
     _nameLabel = [[UILabel alloc] initWithFrame:CGRectMake(kPadding_10, CGRectGetMaxY(_dateLabel.frame) + kPadding_5, (kScreenWidth - 2 * kPadding_10) / 2, kPadding_20)];
@@ -79,8 +87,16 @@
     
     [self.contentView addSubview:_countLabel];
     
+    // 出邮费人
+    _shippingNameLabel = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(_countLabel.frame), CGRectGetMaxY(_shippingLabel.frame) + kPadding_5, (kScreenWidth - 2 * kPadding_10) / 2, kPadding_20)];
+    _shippingNameLabel.font = kFontSizeFamily(20);
+    _shippingNameLabel.textColor = kDefaultBlackColor;
+    _shippingNameLabel.textAlignment = NSTextAlignmentLeft;
+    
+    [self.contentView addSubview:_shippingNameLabel];
+    
     // 净赚
-    _grossLabel = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(_countLabel.frame), CGRectGetMaxY(_shippingLabel.frame) + kPadding_5, (kScreenWidth - 2 * kPadding_10) / 2, kPadding_20)];
+    _grossLabel = [[UILabel alloc] initWithFrame:CGRectMake(kPadding_10, CGRectGetMaxY(_shippingNameLabel.frame) + kPadding_5, (kScreenWidth - 2 * kPadding_10) / 2, kPadding_20)];
     _grossLabel.font = kFontSizeFamily(20);
     _grossLabel.textColor = kDefaultBlackColor;
     _grossLabel.textAlignment = NSTextAlignmentLeft;
@@ -88,7 +104,7 @@
     [self.contentView addSubview:_grossLabel];
     
     // 地址
-    _addressLabel = [[UILabel alloc] initWithFrame:CGRectMake(kPadding_10, CGRectGetMaxY(_countLabel.frame) + kPadding_5, kScreenWidth - 2 * kPadding_10, kPadding_20)];
+    _addressLabel = [[UILabel alloc] initWithFrame:CGRectMake(kPadding_10, CGRectGetMaxY(_grossLabel.frame) + kPadding_5, kScreenWidth - 2 * kPadding_10, kPadding_20)];
     _addressLabel.font = kFontSizeFamily(20);
     _addressLabel.textColor = kDefaultBlackColor;
     _addressLabel.textAlignment = NSTextAlignmentLeft;
@@ -104,10 +120,12 @@
 
 - (void)config:(HoneyModel *)honeyModel {
     _dateLabel.text = [NSString stringWithFormat:@"日期：%@", honeyModel.date];
+    _salesLabel.text = [NSString stringWithFormat:@"销售：%@", honeyModel.sales_name];
     _nameLabel.text = [NSString stringWithFormat:@"姓名：%@", honeyModel.name];
     _phoneLabel.text = [NSString stringWithFormat:@"电话：%@", honeyModel.phone];
     _moneyLabel.text = [NSString stringWithFormat:@"金额：%@", honeyModel.allMoney];
     _shippingLabel.text = [NSString stringWithFormat:@"邮费：%@", honeyModel.shipping];
+    _shippingNameLabel.text = [NSString stringWithFormat:@"出邮费人：%@", honeyModel.shipping_name];
     _grossLabel.text = [NSString stringWithFormat:@"净赚：%@", honeyModel.gross];
     _countLabel.text = [NSString stringWithFormat:@"数量：%@", honeyModel.count];
     _addressLabel.text = [NSString stringWithFormat:@"地址：%@", honeyModel.address];

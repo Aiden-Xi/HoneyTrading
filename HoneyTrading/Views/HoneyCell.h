@@ -16,8 +16,10 @@
 @property (strong, nonatomic) UILabel *countLabel;
 @property (strong, nonatomic) UILabel *grossLabel;
 @property (strong, nonatomic) UILabel *shippingLabel;
+@property (nonatomic, strong) UILabel *shippingNameLabel;
 @property (strong, nonatomic) UILabel *addressLabel;
 @property (nonatomic, strong) UILabel *dateLabel;
+@property (nonatomic, strong) UILabel *salesLabel;
 
 - (void)config:(HoneyModel *)honeyModel;
 

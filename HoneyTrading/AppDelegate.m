@@ -57,6 +57,7 @@
     manager.shouldResignOnTouchOutside = YES;
     manager.shouldToolbarUsesTextFieldTintColor = YES;
     manager.enableAutoToolbar = NO;
+    manager.keyboardDistanceFromTextField = 20;
 }
 
 #pragma mark - Core Data stack

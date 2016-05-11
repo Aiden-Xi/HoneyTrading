@@ -15,12 +15,39 @@
 
 @implementation HomeViewController
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    [self getLoad];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     _honeyArray = [NSArray array];
     
-    [self getLoad];
+//    static dispatch_once_t onceToken;
+//    dispatch_once(&onceToken, ^{
+//        for (int i = 0; i < 2; i++) {
+//            HoneyModel *honey = [[HoneyModel alloc] init];
+//            honey.date = @"2016-05-10";
+//            honey.sales_name = @"小欢";
+//            honey.name = @"毛鹏";
+//            honey.phone = @"15021170067";
+//            honey.allMoney = @"240";
+//            honey.shipping = @"10";
+//            honey.shipping_name = @"席小雨";
+//            honey.count = @"2";
+//            honey.gross = @"88";
+//            honey.address = @"上海市浦东新区张衡路666弄盛大研发中心";
+//            
+//            dispatch_async(dispatch_get_global_queue(0, 0), ^{
+//                [honey save];
+//            });
+//        }
+//    });
+    
+    
     
     [self createUI];
 }
@@ -28,17 +55,17 @@
 #pragma mark - 获取数据列表 -
 /** 查询全部数据 */
 - (void)getLoad {
-    dispatch_async(dispatch_get_global_queue(0, 0), ^{
-        _honeyArray = [HoneyModel findAll];
-        
-        [_tableView reloadData];
-    });
-    
-//    dispatch_sync(dispatch_get_global_queue(0, 0), ^{
+//    dispatch_async(dispatch_get_global_queue(0, 0), ^{
 //        _honeyArray = [HoneyModel findAll];
 //        
 //        [_tableView reloadData];
 //    });
+    
+    dispatch_sync(dispatch_get_global_queue(0, 0), ^{
+        _honeyArray = [HoneyModel findAll];
+        
+        [_tableView reloadData];
+    });
 }
 
 - (void)createUI {
@@ -85,14 +112,20 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 140;
+    return 170;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];  // 取消选中
+    
     HoneyModel *honey = _honeyArray[indexPath.row];
     
-    ShowViewController *showVC = [[ShowViewController alloc] init];
+    UIStoryboard *main = kStoryBoard(@"Main");
+    
+    ShowViewController *showVC = [main instantiateViewControllerWithIdentifier:@"showController"];
     showVC.honeyModel = honey;
+    
+    [self.navigationController pushViewController:showVC animated:YES];
 }
 
 
