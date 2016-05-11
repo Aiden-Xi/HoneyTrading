@@ -47,8 +47,6 @@
 //        }
 //    });
     
-    
-    
     [self createUI];
 }
 
@@ -75,7 +73,7 @@
     _tableView.backgroundColor = kBackgroundColor;
     _tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     //去掉分割线
-//    _tableView.separatorStyle = UITableViewCellSelectionStyleNone;
+    _tableView.separatorStyle = UITableViewCellSelectionStyleNone;
     
     [self.view addSubview:_tableView];
 }
@@ -103,12 +101,10 @@
     if (!cell) {
         cell = [[HoneyCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID tableView:tableView];
         
-//        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
         cell.rightUtilityButtons = [self rightButtons];
         cell.delegate = self;
     }
-    
-//    cell.contentView.backgroundColor = [UIColor purpleColor];
     
     HoneyModel *honeyModel = (HoneyModel *)_honeyArray[indexPath.row];
     
